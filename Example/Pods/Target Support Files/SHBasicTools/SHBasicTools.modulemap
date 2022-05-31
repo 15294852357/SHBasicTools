@@ -1,0 +1,6 @@
+framework module SHBasicTools {
+  umbrella header "SHBasicTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
