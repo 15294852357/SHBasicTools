@@ -32,6 +32,8 @@
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9938D8B729A6C45CE58B6C3E6C3FDBF5 /* SHBasicTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF01EECB35387AC48F142404BD0A598 /* SHBasicTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A53144162845F6EF009D5403 /* NSString+StringChange.h in Headers */ = {isa = PBXBuildFile; fileRef = A53144142845F6EF009D5403 /* NSString+StringChange.h */; };
+		A53144172845F6EF009D5403 /* NSString+StringChange.m in Sources */ = {isa = PBXBuildFile; fileRef = A53144152845F6EF009D5403 /* NSString+StringChange.m */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		B85D70BE9501E59512518358628BFDC9 /* Pods-SHBasicTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51067807F881836B3C292C7CF3029C7E /* Pods-SHBasicTools_Example-dummy.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
@@ -113,6 +115,8 @@
 		A0BCBBCAB0B64C4E9B873A26E7903DC2 /* SHBasicTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHBasicTools.modulemap; sourceTree = "<group>"; };
 		A19E9C9CF35EAE394216A1F465355C78 /* Pods-SHBasicTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHBasicTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		A4308E2AC66A989A81EF99D5BA681B0C /* SHBasicTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHBasicTools.debug.xcconfig; sourceTree = "<group>"; };
+		A53144142845F6EF009D5403 /* NSString+StringChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+StringChange.h"; path = "SHBasicTools/Classes/NSString+StringChange.h"; sourceTree = "<group>"; };
+		A53144152845F6EF009D5403 /* NSString+StringChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+StringChange.m"; path = "SHBasicTools/Classes/NSString+StringChange.m"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		C67C76A8ADDA38C3E85421845F4E57B4 /* Pods-SHBasicTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHBasicTools_Example-Info.plist"; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 			children = (
 				053BA609A26692383FC92345C45B509B /* SHBasicToolManager.h */,
 				61219CF16BA59BC714B3337E0BFA3855 /* SHBasicToolManager.m */,
+				A53144142845F6EF009D5403 /* NSString+StringChange.h */,
+				A53144152845F6EF009D5403 /* NSString+StringChange.m */,
 				1BDE0D1C019B7271354300D20C976595 /* Pod */,
 				96C8B2AF247E224870515EF3FF2F383E /* Support Files */,
 			);
@@ -376,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50BD72534D34BBE90139FE86DCAA15DD /* SHBasicToolManager.h in Headers */,
+				A53144162845F6EF009D5403 /* NSString+StringChange.h in Headers */,
 				9938D8B729A6C45CE58B6C3E6C3FDBF5 /* SHBasicTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB0DDB93B70C4C24A0B400B75F8525B /* SHBasicToolManager.m in Sources */,
+				A53144172845F6EF009D5403 /* NSString+StringChange.m in Sources */,
 				860177409D7BFDA45C792F577A7956CF /* SHBasicTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
