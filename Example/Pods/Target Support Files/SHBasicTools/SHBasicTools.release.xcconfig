@@ -1,6 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SHBasicTools
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/PGDatePicker" "${PODS_CONFIGURATION_BUILD_DIR}/PGPickerView" "${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "CFNetwork" -framework "CoreGraphics" -framework "Foundation" -framework "MBProgressHUD" -framework "Masonry" -framework "PGDatePicker" -framework "QuartzCore" -framework "Security" -framework "SocketRocket" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
