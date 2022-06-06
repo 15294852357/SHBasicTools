@@ -30,6 +30,8 @@
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9938D8B729A6C45CE58B6C3E6C3FDBF5 /* SHBasicTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF01EECB35387AC48F142404BD0A598 /* SHBasicTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A514F136284DD55E00C35DE8 /* pinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = A514F134284DD55E00C35DE8 /* pinyin.h */; };
+		A514F137284DD55E00C35DE8 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = A514F135284DD55E00C35DE8 /* pinyin.c */; };
 		A53144162845F6EF009D5403 /* NSString+StringChange.h in Headers */ = {isa = PBXBuildFile; fileRef = A53144142845F6EF009D5403 /* NSString+StringChange.h */; };
 		A53144172845F6EF009D5403 /* NSString+StringChange.m in Sources */ = {isa = PBXBuildFile; fileRef = A53144152845F6EF009D5403 /* NSString+StringChange.m */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
@@ -111,6 +113,8 @@
 		A0BCBBCAB0B64C4E9B873A26E7903DC2 /* SHBasicTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHBasicTools.modulemap; sourceTree = "<group>"; };
 		A19E9C9CF35EAE394216A1F465355C78 /* Pods-SHBasicTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHBasicTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		A4308E2AC66A989A81EF99D5BA681B0C /* SHBasicTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHBasicTools.debug.xcconfig; sourceTree = "<group>"; };
+		A514F134284DD55E00C35DE8 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		A514F135284DD55E00C35DE8 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
 		A53144142845F6EF009D5403 /* NSString+StringChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+StringChange.h"; path = "SHBasicTools/Classes/NSString+StringChange.h"; sourceTree = "<group>"; };
 		A53144152845F6EF009D5403 /* NSString+StringChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+StringChange.m"; path = "SHBasicTools/Classes/NSString+StringChange.m"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -213,6 +217,7 @@
 			children = (
 				A53144142845F6EF009D5403 /* NSString+StringChange.h */,
 				A53144152845F6EF009D5403 /* NSString+StringChange.m */,
+				A514F133284DD55E00C35DE8 /* pinyin */,
 				1BDE0D1C019B7271354300D20C976595 /* Pod */,
 				96C8B2AF247E224870515EF3FF2F383E /* Support Files */,
 			);
@@ -258,6 +263,15 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SHBasicTools";
+			sourceTree = "<group>";
+		};
+		A514F133284DD55E00C35DE8 /* pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				A514F134284DD55E00C35DE8 /* pinyin.h */,
+				A514F135284DD55E00C35DE8 /* pinyin.c */,
+			);
+			path = pinyin;
 			sourceTree = "<group>";
 		};
 		A7BF1765418B535064C88EEB2C8F3B03 /* Development Pods */ = {
@@ -376,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A53144162845F6EF009D5403 /* NSString+StringChange.h in Headers */,
+				A514F136284DD55E00C35DE8 /* pinyin.h in Headers */,
 				9938D8B729A6C45CE58B6C3E6C3FDBF5 /* SHBasicTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +578,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A514F137284DD55E00C35DE8 /* pinyin.c in Sources */,
 				A53144172845F6EF009D5403 /* NSString+StringChange.m in Sources */,
 				860177409D7BFDA45C792F577A7956CF /* SHBasicTools-dummy.m in Sources */,
 			);
