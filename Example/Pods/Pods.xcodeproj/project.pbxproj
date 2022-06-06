@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CB0DDB93B70C4C24A0B400B75F8525B /* SHBasicToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61219CF16BA59BC714B3337E0BFA3855 /* SHBasicToolManager.m */; };
 		1289076F8BBC89731806B42CED293745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		1F41334E01642E6A98D35F65C4C0F087 /* Pods-SHBasicTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972334534CDCF39C60E922E577CC10E1 /* Pods-SHBasicTools_Tests-dummy.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,7 +19,6 @@
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		482141C42A309BCAED3A4A8C95A6315B /* Pods-SHBasicTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A19E9C9CF35EAE394216A1F465355C78 /* Pods-SHBasicTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50BD72534D34BBE90139FE86DCAA15DD /* SHBasicToolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 053BA609A26692383FC92345C45B509B /* SHBasicToolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,7 +66,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		053BA609A26692383FC92345C45B509B /* SHBasicToolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHBasicToolManager.h; path = SHBasicTools/Classes/SHBasicToolManager.h; sourceTree = "<group>"; };
 		084F3B8CD37166EBC6F57571779425BC /* Pods-SHBasicTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHBasicTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0A2024AB13851159CA7CE4E33668125D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0B5B669EFACA95654F179C4BC65CC0AB /* Pods-SHBasicTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SHBasicTools_Tests"; path = Pods_SHBasicTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +92,6 @@
 		5CA02BF17B125D2432E4125B4692B4A1 /* Pods-SHBasicTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHBasicTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5FEBF6436E904B67E50481100E3C0BBF /* SHBasicTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHBasicTools-prefix.pch"; sourceTree = "<group>"; };
 		6021D0503839252A38488A318069323B /* Pods-SHBasicTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHBasicTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		61219CF16BA59BC714B3337E0BFA3855 /* SHBasicToolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHBasicToolManager.m; path = SHBasicTools/Classes/SHBasicToolManager.m; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		708AA2D04FC21DE758983DEED64C9773 /* Pods-SHBasicTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHBasicTools_Tests.modulemap"; sourceTree = "<group>"; };
@@ -215,8 +211,6 @@
 		79E1EF938A5D6A98FE0176FB987BF2E2 /* SHBasicTools */ = {
 			isa = PBXGroup;
 			children = (
-				053BA609A26692383FC92345C45B509B /* SHBasicToolManager.h */,
-				61219CF16BA59BC714B3337E0BFA3855 /* SHBasicToolManager.m */,
 				A53144142845F6EF009D5403 /* NSString+StringChange.h */,
 				A53144152845F6EF009D5403 /* NSString+StringChange.m */,
 				1BDE0D1C019B7271354300D20C976595 /* Pod */,
@@ -381,7 +375,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BD72534D34BBE90139FE86DCAA15DD /* SHBasicToolManager.h in Headers */,
 				A53144162845F6EF009D5403 /* NSString+StringChange.h in Headers */,
 				9938D8B729A6C45CE58B6C3E6C3FDBF5 /* SHBasicTools-umbrella.h in Headers */,
 			);
@@ -570,7 +563,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB0DDB93B70C4C24A0B400B75F8525B /* SHBasicToolManager.m in Sources */,
 				A53144172845F6EF009D5403 /* NSString+StringChange.m in Sources */,
 				860177409D7BFDA45C792F577A7956CF /* SHBasicTools-dummy.m in Sources */,
 			);
