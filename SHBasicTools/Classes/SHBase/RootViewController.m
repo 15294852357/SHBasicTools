@@ -1,8 +1,8 @@
 //
 //  RootViewController.m
-//  JXAoBo
+//  WisdomPeoples
 //
-//  Created by 慧 on 2020/12/9.
+//  Created by 慧 on 2022/5/5.
 //  Copyright © 2020 慧. All rights reserved.
 //
 
@@ -26,6 +26,8 @@
         
     self.navHeight = APP_NavBarHeight;
     self.tabbarHeight = APP_TabBarHeight;
+
+    self.navBgHeight = CONVER_VALUE(80.0f);
 
     self.navBar.lineHidden = YES;
     CGRect navbarFrame = CGRectMake(0, 0, self.view.bounds.size.width, self.navHeight);

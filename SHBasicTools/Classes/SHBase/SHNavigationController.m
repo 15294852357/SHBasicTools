@@ -1,8 +1,8 @@
 //
 //  SHNavigationController.m
-//  JXAoBo
+//  WisdomPeoples
 //
-//  Created by 慧 on 2020/12/10.
+//  Created by 慧 on 2022/5/5.
 //  Copyright © 2020 慧. All rights reserved.
 //
 

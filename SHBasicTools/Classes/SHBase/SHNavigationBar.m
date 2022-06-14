@@ -180,7 +180,7 @@
 + (SHNavigationBar *)navBarWithTitle:(NSString *)title backButton:(id)target action:(SEL)sel {
     SHNavigationBar *navbar = [[SHNavigationBar alloc] init];
     if (target) {
-        navbar.leftView = [SHNavigationBar backButtonTarget:target action:sel backImageString:@"back_withe"];
+//        navbar.leftView = [SHNavigationBar backButtonTarget:target action:sel backImageString:@"back_withe"];
     }
     navbar.title = title;
     return navbar;

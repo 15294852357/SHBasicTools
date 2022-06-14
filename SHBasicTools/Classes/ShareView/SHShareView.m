@@ -86,7 +86,7 @@
     UIButton* nextButton = nil;
     for (int i = 0; i < self.shareModelArray.count; i ++) {
         SHShareModel* model = self.shareModelArray[i];
-        NSString* imageString = [NSString stringWithFormat:@"%@%@%@",[HttpUrl url_Server],[HttpUrl url_Server_suffix],[NSString StringConverWithString:model.shareIcon]];
+//        NSString* imageString = [NSString stringWithFormat:@"%@%@%@",[HttpUrl url_Server],[HttpUrl url_Server_suffix],[NSString StringConverWithString:model.shareIcon]];
 
         UIButton* button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.contentMode = UIViewContentModeScaleAspectFit;
@@ -117,8 +117,8 @@
             }
         }];
         nextButton = button;
-        [button setSDImageWithImageString:imageString EdgeInsetsStyle:MKButtonEdgeInsetsStyleTop Radius:0 size:CGSizeMake(CONVER_VALUE(45.0f), CONVER_VALUE(45.0f))];
-        [button layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleTop imageTitleSpace:CONVER_VALUE(5.0f)];
+//        [button setSDImageWithImageString:imageString EdgeInsetsStyle:MKButtonEdgeInsetsStyleTop Radius:0 size:CGSizeMake(CONVER_VALUE(45.0f), CONVER_VALUE(45.0f))];
+//        [button layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleTop imageTitleSpace:CONVER_VALUE(5.0f)];
     }
 }
 
@@ -153,36 +153,36 @@
             [self addSubview:view];
         }
             break;
-        case SHShareModelTypeWeibo:{
-            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-            [shareParams SSDKSetupShareParamsByText:self.title images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString] title:self.text type:SSDKContentTypeWebPage];
-            [self shareWeiBoParams:shareParams];
-        }
-            break;
-        case SHShareModelTypeQZone:{
-            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-            [self shareParams:SSDKPlatformSubTypeQZone parameters:shareParams];
-        }
-            break;
-        case SHShareModelTypeQQFriend:{
-            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-            [self shareParams:SSDKPlatformSubTypeQQFriend parameters:shareParams];
-        }
-            break;
-        case SHShareModelTypeWechatSession:{
-            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-            [self shareParams:SSDKPlatformSubTypeWechatSession parameters:shareParams];
-        }
-            break;
-        case SHShareModelTypeWechatTimeline:{
-            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-            [self shareParams:SSDKPlatformSubTypeWechatTimeline parameters:shareParams];
-        }
-            break;
+//        case SHShareModelTypeWeibo:{
+//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+//            [shareParams SSDKSetupShareParamsByText:self.title images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString] title:self.text type:SSDKContentTypeWebPage];
+//            [self shareWeiBoParams:shareParams];
+//        }
+//            break;
+//        case SHShareModelTypeQZone:{
+//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+//            [self shareParams:SSDKPlatformSubTypeQZone parameters:shareParams];
+//        }
+//            break;
+//        case SHShareModelTypeQQFriend:{
+//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+//            [self shareParams:SSDKPlatformSubTypeQQFriend parameters:shareParams];
+//        }
+//            break;
+//        case SHShareModelTypeWechatSession:{
+//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+//            [self shareParams:SSDKPlatformSubTypeWechatSession parameters:shareParams];
+//        }
+//            break;
+//        case SHShareModelTypeWechatTimeline:{
+//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+//            [self shareParams:SSDKPlatformSubTypeWechatTimeline parameters:shareParams];
+//        }
+//            break;
         default:
             break;
     }
@@ -195,40 +195,40 @@
 }
 
 - (void)shareWeiBoParams:(NSMutableDictionary*)shareParams{
-    __block BOOL isWeiBoShare = YES;
-    [ShareSDK share:SSDKPlatformTypeSinaWeibo parameters:shareParams onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
-        isWeiBoShare = NO;
-        
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"isWeiBoShare" object:self userInfo:@{@"isWeiBoShare": @(isWeiBoShare)}];
-    }];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"isWeiBoShare" object:self userInfo:@{@"isWeiBoShare": @(isWeiBoShare)}];
+//    __block BOOL isWeiBoShare = YES;
+//    [ShareSDK share:SSDKPlatformTypeSinaWeibo parameters:shareParams onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
+//        isWeiBoShare = NO;
+//
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"isWeiBoShare" object:self userInfo:@{@"isWeiBoShare": @(isWeiBoShare)}];
+//    }];
+//    [[NSNotificationCenter defaultCenter] postNotificationName:@"isWeiBoShare" object:self userInfo:@{@"isWeiBoShare": @(isWeiBoShare)}];
 }
 
 - (void)shareParams:(int)shareType parameters:(NSMutableDictionary*)shareParams{
-    [ShareSDK share:shareType parameters:shareParams onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
-         switch (state) {
-             case SSDKResponseStateSuccess:{
-                 AlertView* view = [[AlertView alloc] initTitle:@"分享成功"];
-                 [self addSubview:view];
-                 if (self.newsModel) {
-                     [HttpRequest postScoreTotal:UserScoreTypeShare newsModel:self.newsModel];
-                 }
-             }
-                 break;
-             case SSDKResponseStateFail:{
-                 AlertView* view = [[AlertView alloc] initTitle:@"分享失败"];
-                 [self addSubview:view];
-             }
-                 break;
-             case SSDKResponseStateCancel:{
-                 AlertView* view = [[AlertView alloc] initTitle:@"分享取消"];
-                 [self addSubview:view];
-             }
-                 break;
-             default:
-                 break;
-         }
-     }];
+//    [ShareSDK share:shareType parameters:shareParams onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
+//         switch (state) {
+//             case SSDKResponseStateSuccess:{
+//                 AlertView* view = [[AlertView alloc] initTitle:@"分享成功"];
+//                 [self addSubview:view];
+//                 if (self.newsModel) {
+//
+//                 }
+//             }
+//                 break;
+//             case SSDKResponseStateFail:{
+//                 AlertView* view = [[AlertView alloc] initTitle:@"分享失败"];
+//                 [self addSubview:view];
+//             }
+//                 break;
+//             case SSDKResponseStateCancel:{
+//                 AlertView* view = [[AlertView alloc] initTitle:@"分享取消"];
+//                 [self addSubview:view];
+//             }
+//                 break;
+//             default:
+//                 break;
+//         }
+//     }];
 }
 
 - (void)pushAlertViewController:(NSString*)title{

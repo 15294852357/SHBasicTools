@@ -1,17 +1,15 @@
 //
-//  SHCusstomTableView.h
+//  SHCusstomCollectionView.h
 //  WisdomPeoples
 //
-//  Created by 慧 on 2021/1/18.
-//  Copyright © 2021 慧. All rights reserved.
+//  Created by 慧 on 2022/2/9.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-
-@interface SHCusstomTableView : UITableView
+@interface SHCusstomCollectionView : UICollectionView
 /// 缺省图片
 @property (nonatomic,copy) NSString* emptyImageName;
 /// 标题
@@ -38,6 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) CGFloat spaceHeight;
 
 @property (nonatomic,copy) void(^emptyReloadData)(UIScrollView* scrollView,UIButton* button);
+
 @end
 
 NS_ASSUME_NONNULL_END

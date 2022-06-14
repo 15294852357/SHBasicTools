@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		03A7F9BB493120A6D117460B /* Pods_SHBasicTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHBasicTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07BA7127D8B401050E46AB7C /* SHBasicTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHBasicTools.podspec; path = ../SHBasicTools.podspec; sourceTree = "<group>"; };
+		07BA7127D8B401050E46AB7C /* SHBasicTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHBasicTools.podspec; path = ../SHBasicTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F58FDFB3A4CF9C536D38373 /* Pods-SHBasicTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHBasicTools_Example.release.xcconfig"; path = "Target Support Files/Pods-SHBasicTools_Example/Pods-SHBasicTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49F55F4464DAC97F5B7883B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4DB7CD76054AFE87EE618E3A /* Pods_SHBasicTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHBasicTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };

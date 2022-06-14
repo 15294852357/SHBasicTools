@@ -15,9 +15,7 @@
 #endif /* PrefixHeader_pch */
 
 
-
-@import UIKit;
-@import Foundation;
+#ifdef __OBJC__
 
 
 #import "Header.h"
@@ -34,15 +32,17 @@
 #import "JXCategoryListContainerView.h"
 #import "PrintBeautifulLog.h"
 
+//#import <ShareSDK/ShareSDK.h>
+//#import <ShareSDKUI/ShareSDK+SSUI.h>
+//#import <ShareSDKExtension/ShareSDK+Extension.h>
 
 #import "SHNavigationController.h"
 #import "SHNavigationBar.h"
-#import "SHTabBarController.h"
-#import "SHTabBar.h"
 #import "RootViewController.h"
 #import "SHPageViewController.h"
 #import "SHPageListViewController.h"
 #import "SHCusstomTableView.h"
+#import "SHCusstomCollectionView.h"
 
 
 #import "MBProgressHUD+Hud.h"
@@ -60,6 +60,10 @@
 #import "MyTextFieldView.h"
 #import "UIColor+Exten.h"
 #import "SHShareView.h"
+#import "SHShareInfoModel.h"
 #import "CusstomSheetTableView.h"
 #import "SHMenuInfoModel.h"
 #import "WebSocketManager.h"
+
+
+#endif

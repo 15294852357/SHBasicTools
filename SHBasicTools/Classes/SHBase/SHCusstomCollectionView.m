@@ -1,14 +1,13 @@
 //
-//  SHCusstomTableView.m
-//  WisdomPeoples
+//  SHCusstomCollectionView.m
+
 //
-//  Created by 慧 on 2021/1/18.
-//  Copyright © 2021 慧. All rights reserved.
+//  Created by 慧 on 2022/2/9.
 //
 
-#import "SHCusstomTableView.h"
+#import "SHCusstomCollectionView.h"
 
-@interface SHCusstomTableView ()<DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,UIScrollViewDelegate>
+@interface SHCusstomCollectionView ()<DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,UIScrollViewDelegate>
 /// 缺省图片
 @property (nonatomic,copy) NSString* imageName;
 /// 标题
@@ -33,10 +32,10 @@
 @property (nonatomic,assign) CGFloat buttonTitleFont;
 @end
 
-@implementation SHCusstomTableView
+@implementation SHCusstomCollectionView
 
-- (instancetype)init{
-    self = [super init];
+- (instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout *)layout{
+    self = [super initWithFrame:frame collectionViewLayout:layout];
     if (self) {
         self.emptyDataSetDelegate = self;
         self.emptyDataSetSource = self;
@@ -129,8 +128,6 @@
 - (void)emptyDataSetWillAppear:(UIScrollView *)scrollView {
     self.contentOffset = CGPointZero;
 }
-
-
 
 /*
 // Only override drawRect: if you perform custom drawing.
