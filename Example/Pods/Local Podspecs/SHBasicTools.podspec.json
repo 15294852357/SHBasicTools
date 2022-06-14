@@ -19,6 +19,8 @@
     "ios": "10.0"
   },
   "source_files": "SHBasicTools/Classes/**/*",
+  "public_header_files": "SHBasicTools/Classes/Header.h",
+  "prefix_header_file": "SHBasicTools/Classes/PrefixHeader.pch",
   "dependencies": {
     "AFNetworking": [
 
@@ -33,6 +35,27 @@
 
     ],
     "PGDatePicker": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "JXCategoryView": [
+
+    ],
+    "PrintBeautifulLog": [
 
     ]
   }

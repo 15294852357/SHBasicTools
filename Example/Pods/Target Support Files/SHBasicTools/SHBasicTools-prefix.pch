@@ -10,3 +10,68 @@
 #endif
 #endif
 
+//
+//  PrefixHeader.pch
+//  SHBasicTools
+//
+//  Created by 慧 on 2022/6/14.
+//  Copyright © 2022 yangsh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+
+@import UIKit;
+@import Foundation;
+
+
+#import "Header.h"
+
+#import <AFNetworking/AFNetworking.h>
+#import "Masonry/Masonry.h"
+#import <SDWebImage/SDWebImage.h>
+#import <PGDatePicker/PGDatePickManager.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+#import <MJRefresh/MJRefresh.h>
+#import "DZNEmptyDataSet-umbrella.h"
+#import "JXCategoryView.h"
+#import "JXCategoryListContainerView.h"
+#import "PrintBeautifulLog.h"
+
+
+#import "SHNavigationController.h"
+#import "SHNavigationBar.h"
+#import "SHTabBarController.h"
+#import "SHTabBar.h"
+#import "RootViewController.h"
+#import "SHPageViewController.h"
+#import "SHPageListViewController.h"
+#import "SHCusstomTableView.h"
+
+
+#import "MBProgressHUD+Hud.h"
+#import "WSLWaterFlowLayout.h"
+#import "NSString+StringChange.h"
+#import "AlertView.h"
+#import "AlertViewController.h"
+#import "SHPickerView.h"
+#import "SHPickerInfoModel.h"
+#import "UILabel+Exten.h"
+#import "UIView+Exten.h"
+#import "UIButton+Exten.h"
+#import "UITextField+Exten.h"
+#import "UITextView+Exten.h"
+#import "MyTextFieldView.h"
+#import "UIColor+Exten.h"
+#import "SHShareView.h"
+#import "CusstomSheetTableView.h"
+#import "SHMenuInfoModel.h"
+#import "WebSocketManager.h"

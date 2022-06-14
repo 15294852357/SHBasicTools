@@ -8,8 +8,6 @@
 
 #import "SHShareView.h"
 
-//#import "InformationCamplaintViewController.h"
-
 #define imageSpace  (keySCREEN_WIDTH - CONVER_VALUE(70.0f) * 5) / 6
 #define button_width_height CONVER_VALUE(70.0f)
 

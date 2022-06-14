@@ -39,13 +39,28 @@ TODO: Add long description of the pod here.
   #   'SHBasicTools' => ['SHBasicTools/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.public_header_files = 'Pod/Classes/Header.h
+   #s.public_header_files = 'Pod/Classes/**/*.h'
+    s.public_header_files = 'SHBasicTools/Classes/Header.h'
+
+   #默认是true cocoapos会生成默认前缀.pch文件
+  s.prefix_header_file = false
+  s.prefix_header_file = 'SHBasicTools/Classes/PrefixHeader.pch'
+  
+   #向pod项目的前缀文件中添加内容
+  #s.prefix_header_contents = '#import <AFNetworking/AFNetworking.h>','#import "Masonry/Masonry.h"','#import <SDWebImage/SDWebImage.h>','#import <PGDatePicker/PGDatePickManager.h>'
+  
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
   s.dependency 'Masonry'
   s.dependency 'MBProgressHUD'
   s.dependency 'SocketRocket'
   s.dependency 'PGDatePicker'
+  s.dependency 'SDWebImage'
+  s.dependency 'MJExtension'
+  s.dependency 'MJRefresh'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'JXCategoryView'
+  s.dependency 'PrintBeautifulLog'
 
 end

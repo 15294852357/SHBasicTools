@@ -57,7 +57,7 @@
         [button setTitleColor:UIColorFromRGBAlpha(0x2D2A2B, 1) forState:UIControlStateNormal];
         button.titleLabel.font = [UIFont boldSystemFontOfSize:CONVER_VALUE(22.0f)];
         [button setImage:kGetImage(@"update_new") forState:UIControlStateNormal];
-        [button layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleRight imageTitleSpace:CONVER_VALUE(5.0f)];
+//        [button layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleRight imageTitleSpace:CONVER_VALUE(5.0f)];
         button.userInteractionEnabled = NO;
         [imageView addSubview:button];
         [button mas_makeConstraints:^(MASConstraintMaker *make) {

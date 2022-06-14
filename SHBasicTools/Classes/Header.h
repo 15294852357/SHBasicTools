@@ -10,7 +10,17 @@
 #define Header_h
 
 
+#define SHWeakObj(o) __weak typeof(o) weak##o = o;
+#define SHStrongObj(o) __strong typeof(o) strong##o = o;
+
 #define APPLog(format, ...) NSLog((@"%s\n" "第 %d 行\n" format), __FUNCTION__, __LINE__, ## __VA_ARGS__);
+
+//按钮禁用
+#define buttonDisabled  button.enabled = NO;\
+                        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(APP_after_secrte * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{\
+                        button.enabled = YES;\
+                        });
+
 //工程名称
 #define APP_NAME [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
 //屏幕尺寸
