@@ -153,36 +153,36 @@
             [self addSubview:view];
         }
             break;
-//        case SHShareModelTypeWeibo:{
-//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-//            [shareParams SSDKSetupShareParamsByText:self.title images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString] title:self.text type:SSDKContentTypeWebPage];
-//            [self shareWeiBoParams:shareParams];
-//        }
-//            break;
-//        case SHShareModelTypeQZone:{
-//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-//            [self shareParams:SSDKPlatformSubTypeQZone parameters:shareParams];
-//        }
-//            break;
-//        case SHShareModelTypeQQFriend:{
-//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-//            [self shareParams:SSDKPlatformSubTypeQQFriend parameters:shareParams];
-//        }
-//            break;
-//        case SHShareModelTypeWechatSession:{
-//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-//            [self shareParams:SSDKPlatformSubTypeWechatSession parameters:shareParams];
-//        }
-//            break;
-//        case SHShareModelTypeWechatTimeline:{
-//            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
-//            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
-//            [self shareParams:SSDKPlatformSubTypeWechatTimeline parameters:shareParams];
-//        }
-//            break;
+        case SHShareModelTypeWeibo:{
+            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+            [shareParams SSDKSetupShareParamsByText:self.title images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString] title:self.text type:SSDKContentTypeWebPage];
+            [self shareWeiBoParams:shareParams];
+        }
+            break;
+        case SHShareModelTypeQZone:{
+            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+            [self shareParams:SSDKPlatformSubTypeQZone parameters:shareParams];
+        }
+            break;
+        case SHShareModelTypeQQFriend:{
+            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+            [self shareParams:SSDKPlatformSubTypeQQFriend parameters:shareParams];
+        }
+            break;
+        case SHShareModelTypeWechatSession:{
+            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+            [self shareParams:SSDKPlatformSubTypeWechatSession parameters:shareParams];
+        }
+            break;
+        case SHShareModelTypeWechatTimeline:{
+            NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+            [shareParams SSDKSetupShareParamsByText:self.text images:kGetImage(self.image) url:[NSURL URLWithString:self.urlString]  title:self.title type:SSDKContentTypeAuto];
+            [self shareParams:SSDKPlatformSubTypeWechatTimeline parameters:shareParams];
+        }
+            break;
         default:
             break;
     }

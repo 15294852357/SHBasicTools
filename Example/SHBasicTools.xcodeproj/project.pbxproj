@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				B78E21D741FE1071D5B6171D /* [CP] Embed Pods Frameworks */,
+				C44718DD4183323CB93B8AA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -381,6 +382,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHBasicTools_Example/Pods-SHBasicTools_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44718DD4183323CB93B8AA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHBasicTools_Example/Pods-SHBasicTools_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_QQ.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_WeChat.bundle",
+				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK_JS_QQ.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK_JS_WeChat.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHBasicTools_Example/Pods-SHBasicTools_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E97D4318DCF59D60626EE742 /* [CP] Check Pods Manifest.lock */ = {

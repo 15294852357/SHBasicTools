@@ -44,9 +44,9 @@
 #import "JXCategoryListContainerView.h"
 #import "PrintBeautifulLog.h"
 
-//#import <ShareSDK/ShareSDK.h>
-//#import <ShareSDKUI/ShareSDK+SSUI.h>
-//#import <ShareSDKExtension/ShareSDK+Extension.h>
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKUI/ShareSDK+SSUI.h>
+#import <ShareSDKExtension/ShareSDK+Extension.h>
 
 #import "SHNavigationController.h"
 #import "SHNavigationBar.h"

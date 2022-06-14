@@ -57,6 +57,21 @@
     ],
     "PrintBeautifulLog": [
 
+    ],
+    "mob_sharesdk": [
+
+    ],
+    "mob_sharesdk/ShareSDKUI": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/QQ": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/WeChat": [
+
+    ],
+    "mob_sharesdk/ShareSDKExtension": [
+
     ]
   }
 }
