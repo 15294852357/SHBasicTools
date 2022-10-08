@@ -195,13 +195,13 @@
 }
 
 - (void)shareWeiBoParams:(NSMutableDictionary*)shareParams{
-//    __block BOOL isWeiBoShare = YES;
+    __block BOOL isWeiBoShare = YES;
 //    [ShareSDK share:SSDKPlatformTypeSinaWeibo parameters:shareParams onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
 //        isWeiBoShare = NO;
 //
 //        [[NSNotificationCenter defaultCenter] postNotificationName:@"isWeiBoShare" object:self userInfo:@{@"isWeiBoShare": @(isWeiBoShare)}];
 //    }];
-//    [[NSNotificationCenter defaultCenter] postNotificationName:@"isWeiBoShare" object:self userInfo:@{@"isWeiBoShare": @(isWeiBoShare)}];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"isWeiBoShare" object:self userInfo:@{@"isWeiBoShare": @(isWeiBoShare)}];
 }
 
 - (void)shareParams:(int)shareType parameters:(NSMutableDictionary*)shareParams{
@@ -210,9 +210,6 @@
 //             case SSDKResponseStateSuccess:{
 //                 AlertView* view = [[AlertView alloc] initTitle:@"分享成功"];
 //                 [self addSubview:view];
-//                 if (self.newsModel) {
-//
-//                 }
 //             }
 //                 break;
 //             case SSDKResponseStateFail:{

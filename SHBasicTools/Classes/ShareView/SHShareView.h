@@ -8,13 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class NewsModel;
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SHShareView : UIView
-
-@property (nonatomic,strong) NewsModel* newsModel;
 
 @property (nonatomic,strong) NSString* urlString;
 
