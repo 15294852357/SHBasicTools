@@ -1,6 +1,6 @@
 {
   "name": "SHBasicTools",
-  "version": "1.0.2",
+  "version": "0.2.0",
   "summary": "A short description of SHBasicTools.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/15294852357/SHBasicTools",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/15294852357/SHBasicTools.git",
-    "tag": "1.0.2"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "11.0"
@@ -22,9 +22,6 @@
   "public_header_files": "SHBasicTools/Classes/Header.h",
   "prefix_header_file": "SHBasicTools/Classes/PrefixHeader.pch",
   "dependencies": {
-    "AFNetworking": [
-
-    ],
     "Masonry": [
 
     ],
@@ -40,40 +37,10 @@
     "SDWebImage": [
 
     ],
-    "MJExtension": [
-
-    ],
-    "MJRefresh": [
-
-    ],
     "DZNEmptyDataSet": [
 
     ],
-    "IQKeyboardManager": [
-
-    ],
     "JXCategoryView": [
-
-    ],
-    "PrintBeautifulLog": [
-
-    ],
-    "SCIndexView": [
-
-    ],
-    "QMUIKit": [
-
-    ],
-    "YYKit": [
-
-    ],
-    "XHLaunchAd": [
-
-    ],
-    "WMZDialog": [
-
-    ],
-    "SDCycleScrollView": [
 
     ]
   }

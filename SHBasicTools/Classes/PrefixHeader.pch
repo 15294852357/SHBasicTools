@@ -20,21 +20,21 @@
 
 #import "Header.h"
 
-#import <AFNetworking/AFNetworking.h>
+//#import <AFNetworking/AFNetworking.h>
 #import "Masonry/Masonry.h"
 #import <SDWebImage/SDWebImage.h>
 #import <PGDatePicker/PGDatePickManager.h>
 #import <MBProgressHUD/MBProgressHUD.h>
-#import <MJExtension/MJExtension.h>
-#import <MJRefresh/MJRefresh.h>
+//#import <MJExtension/MJExtension.h>
+//#import <MJRefresh/MJRefresh.h>
 #import "DZNEmptyDataSet-umbrella.h"
 #import "JXCategoryView.h"
 #import "JXCategoryListContainerView.h"
-#import "PrintBeautifulLog.h"
-
-#import <ShareSDK/ShareSDK.h>
-#import <ShareSDKUI/ShareSDK+SSUI.h>
-#import <ShareSDKExtension/ShareSDK+Extension.h>
+//#import "PrintBeautifulLog.h"
+//
+//#import <ShareSDK/ShareSDK.h>
+//#import <ShareSDKUI/ShareSDK+SSUI.h>
+//#import <ShareSDKExtension/ShareSDK+Extension.h>
 
 #import "SHNavigationController.h"
 #import "SHNavigationBar.h"
@@ -59,8 +59,6 @@
 #import "UITextView+Exten.h"
 #import "MyTextFieldView.h"
 #import "UIColor+Exten.h"
-#import "SHShareView.h"
-#import "SHShareInfoModel.h"
 #import "CusstomSheetTableView.h"
 #import "SHMenuInfoModel.h"
 #import "WebSocketManager.h"
