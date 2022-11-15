@@ -1678,7 +1678,7 @@
 		11795835AE29F21BA67332D2DFD5AD98 /* JXCategoryImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXCategoryImageView.h; path = Sources/Image/JXCategoryImageView.h; sourceTree = "<group>"; };
 		12A5B6D360F13DE7964ADBF5911F5F8F /* QMUIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIConfiguration.h; path = QMUIKit/QMUICore/QMUIConfiguration.h; sourceTree = "<group>"; };
 		1389649267851E7FF59C0E49028550E0 /* UINavigationBar+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+QMUI.h"; path = "QMUIKit/UIKitExtensions/UINavigationBar+QMUI.h"; sourceTree = "<group>"; };
-		139EDC265AC7968B6620B836FAE2DA67 /* SHBasicTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SHBasicTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		139EDC265AC7968B6620B836FAE2DA67 /* SHBasicTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SHBasicTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13A81FEF889582EE62EAE2D6DEED0DDC /* SHBasicTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHBasicTools.modulemap; sourceTree = "<group>"; };
 		13BCAF71789189C91ACCE37DDA7DE9E7 /* YYDispatchQueuePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDispatchQueuePool.m; path = YYKit/Utility/YYDispatchQueuePool.m; sourceTree = "<group>"; };
 		13DB0F84761516CDADE56CF969D5C4FA /* WMZDialog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMZDialog; path = WMZDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2100,7 +2100,7 @@
 		6908EDFDF3A75B6F1D99F58E859417FC /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
 		6932EBD28908F945C3262021E626499B /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		6993D46F4A03D67354D37195C3D1BD6D /* SHShareInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHShareInfoModel.m; sourceTree = "<group>"; };
-		69CD36E61D847B600DE36967495D58A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		69CD36E61D847B600DE36967495D58A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69DAB708AB1D2F787FA2FD1F55DFE0C6 /* QMUITestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITestView.m; path = QMUIKit/QMUIComponents/QMUITestView.m; sourceTree = "<group>"; };
 		6A43C40FFC9FA20C178A9D372518C2F8 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		6A74311C19D07533CFC8BBB459C3E8A8 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
@@ -2381,7 +2381,7 @@
 		9C9F9CC38356981AF75506DD31315D78 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		9D0E031758A98724DD4B7FF04D2E20AC /* UIColor+Exten.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Exten.h"; path = "SHBasicTools/Classes/UIColor+Exten.h"; sourceTree = "<group>"; };
 		9D8302FD943BF8F46BA53C46402E9D6D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9626DAF1FA6AA170DC1B1EA50A8F30 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		9DCBB619B4A78199B5B216AC7F2563D2 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAAnimatedDotView.h; path = SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAAnimatedDotView.h; sourceTree = "<group>"; };
 		9DDA25B404757173FCF00FAE49B91040 /* YYTextSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextSelectionView.h; path = YYKit/Text/Component/YYTextSelectionView.h; sourceTree = "<group>"; };
@@ -2415,7 +2415,7 @@
 		A2730EC63F4E2DC000F6F806612B2EBE /* JXCategoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXCategoryView-prefix.pch"; sourceTree = "<group>"; };
 		A2CB81C1550B8539EF77BDE00935CD66 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
 		A30B25A955C8B9AA1933E87ED177BDA3 /* UISearchController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UISearchController+QMUI.m"; sourceTree = "<group>"; };
-		A43D0C8F590864670FB57530B63E3F9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A43D0C8F590864670FB57530B63E3F9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A45D242A0AF225010131E1BD858832C9 /* QMUIImagePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerViewController.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerViewController.h; sourceTree = "<group>"; };
 		A47BF336F706B34CF0C02E8B80DBBFFF /* QMUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUIKit-umbrella.h"; sourceTree = "<group>"; };
 		A4E1856195BF69F4F15B617E70E26B32 /* WMZDialogNormal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMZDialogNormal.m; path = WMZDialog/WMZDialog/CustomView/WMZDialogNormal.m; sourceTree = "<group>"; };
@@ -2749,7 +2749,7 @@
 		E28C9BE383EDE2F5607B0B67508F4BAA /* FLAnimatedImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.release.xcconfig; sourceTree = "<group>"; };
 		E31DFB7587E2C428DCAC39F1E67C029D /* JXCategoryIndicatorBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXCategoryIndicatorBackgroundView.m; path = Sources/Indicator/IndicatorViews/JXCategoryIndicatorBackgroundView.m; sourceTree = "<group>"; };
 		E322D20C2B47A1E14784C84C337DDE4D /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
-		E325DCCD357AF9DF2F7C506424659D7E /* YYKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYKit; path = YYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E325DCCD357AF9DF2F7C506424659D7E /* YYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3278DCE2345BE303A5CFC469CEA8635 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = QMUIKit/QMUIResources/Images.xcassets; sourceTree = "<group>"; };
 		E33A41A06D5C18DFE8CD17D0E1C3C18B /* PGDatePicker+TimeAndSecond.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PGDatePicker+TimeAndSecond.m"; path = "PGDatePicker/PGDatePicker+TimeAndSecond.m"; sourceTree = "<group>"; };
 		E3A4B649B8BC471B7D1C74086710109E /* QMUIImagePickerCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerCollectionViewCell.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerCollectionViewCell.h; sourceTree = "<group>"; };
@@ -2826,7 +2826,7 @@
 		F1F00BC09413693B33379443FF6795E4 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YYAdd.h"; path = "YYKit/Base/Foundation/NSArray+YYAdd.h"; sourceTree = "<group>"; };
 		F2294E3870909038EEDC7D9B603FE97B /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "YYKit/Text/String/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
 		F287D2EDAABCF435558781BE2425FBC5 /* MJRefreshNormalTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.m; sourceTree = "<group>"; };
-		F2CF25CADF70B812B283C0A9CCE7F9EA /* pinyin.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pinyin.c; sourceTree = "<group>"; };
+		F2CF25CADF70B812B283C0A9CCE7F9EA /* pinyin.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
 		F2FED3AC27E97F4CC87FC68E761FC5E7 /* WMZDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMZDialog.debug.xcconfig; sourceTree = "<group>"; };
 		F30F4DDB91124030BCB309C6042585F9 /* JXCategoryTitleImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXCategoryTitleImageCell.h; path = Sources/TitleImage/JXCategoryTitleImageCell.h; sourceTree = "<group>"; };
 		F311479F2BF9F55839BD56358D177984 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/Core/UIImageView+WebCache.h"; sourceTree = "<group>"; };
@@ -3168,7 +3168,6 @@
 				526A99067AC01E56177AE73140E9EFCE /* MBProgressHUD.m */,
 				BE89C576F33FFFEF6838F262BC3A1025 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -3221,7 +3220,6 @@
 				C9BA4F2FEFD90C00775C4F1A75E3B251 /* IQUIViewController+Additions.m */,
 				20316AE3D12548050CE92BA4DEDF6CD9 /* Support Files */,
 			);
-			name = IQKeyboardManager;
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
@@ -3284,7 +3282,7 @@
 				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket */,
 				13DB0F84761516CDADE56CF969D5C4FA /* WMZDialog */,
 				6FDBC42DC77E971151CD0142DFAF6E69 /* XHLaunchAd */,
-				E325DCCD357AF9DF2F7C506424659D7E /* YYKit */,
+				E325DCCD357AF9DF2F7C506424659D7E /* YYKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3329,7 +3327,6 @@
 				ADA91E15B320E4743B90B93EC262520C /* Resources */,
 				535F29287B390B1155A8903CC39FE9D2 /* Support Files */,
 			);
-			name = WMZDialog;
 			path = WMZDialog;
 			sourceTree = "<group>";
 		};
@@ -3599,7 +3596,6 @@
 				839FDAB078AC3D1A7EEBD03F6E904B23 /* UIView+SDExtension.m */,
 				BD305B84ABFA956A78FF110E465DFA1F /* Support Files */,
 			);
-			name = SDCycleScrollView;
 			path = SDCycleScrollView;
 			sourceTree = "<group>";
 		};
@@ -3740,7 +3736,6 @@
 				67BF4C69AE497C95F79F5035ED14B2BD /* UIColor+JXAdd.m */,
 				5EBBA97146C16BE1ED569AEC7ED10E3A /* Support Files */,
 			);
-			name = JXCategoryView;
 			path = JXCategoryView;
 			sourceTree = "<group>";
 		};
@@ -3900,7 +3895,6 @@
 				432E2D1B9FDF6EB71DB15ECC7B4D1EB8 /* ViewController+MASAdditions.m */,
 				6B1AA6BD3BEC34458B089C1E4C3CE675 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -3940,7 +3934,6 @@
 				61CCA8C0D548FC009A409537BD22A7E0 /* FLAnimatedImageView.m */,
 				AA83E852F0FF2D9FE775864604F4EBEA /* Support Files */,
 			);
-			name = FLAnimatedImage;
 			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
@@ -4018,7 +4011,6 @@
 				C4433BD1913CAF2DED14E480077FF39B /* Resources */,
 				1BD0AAA1E373A62F0014EF796763882A /* Support Files */,
 			);
-			name = PGDatePicker;
 			path = PGDatePicker;
 			sourceTree = "<group>";
 		};
@@ -4126,7 +4118,6 @@
 				3F02000BDA50CC39475DF29C06F97021 /* NSString+MJExtension.m */,
 				B0BE81A01DACAEEFB2B75BCAB11A1420 /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -4255,7 +4246,6 @@
 				8B5FBE056D1C966D05DB609BC605571D /* UITableView+SCIndexView.m */,
 				42F8795C5DF87125022FFB875ED28B47 /* Support Files */,
 			);
-			name = SCIndexView;
 			path = SCIndexView;
 			sourceTree = "<group>";
 		};
@@ -4314,7 +4304,6 @@
 				DE92FCDCED3DC681DD7A330E59DF6357 /* SRWebSocket.m */,
 				AD65D1BA2DC2FC9CF65F63B8E6964281 /* Support Files */,
 			);
-			name = SocketRocket;
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
@@ -4330,7 +4319,6 @@
 				501DBDF266C12BE65C8966DBF2312D52 /* QMUIWeakObjectContainer */,
 				019B7CE0BFF2CECE95D8AB0B8C2EA7EC /* Support Files */,
 			);
-			name = QMUIKit;
 			path = QMUIKit;
 			sourceTree = "<group>";
 		};
@@ -4391,7 +4379,6 @@
 				176D99570920380476E6A22B2DB9878C /* Support Files */,
 				52CA9D4DF751EBF8965D83F767F165F2 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -4416,7 +4403,6 @@
 				1CC4450DC5B440F46533A7F357C002D2 /* Core */,
 				3EF83B035EF3DFBF705BBC73816E7EAA /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -4670,7 +4656,6 @@
 				06017033880063AC88C5C38AA4D3BB3D /* Resources */,
 				F1636B38F1354A6510C7EF95B6B8C097 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -4850,7 +4835,6 @@
 				63BA2CA87E840A1239B0B3B537EDEC2E /* no-arc */,
 				638578F8660ECD4E1A31C9CBBCAA88B8 /* Support Files */,
 			);
-			name = YYKit;
 			path = YYKit;
 			sourceTree = "<group>";
 		};
@@ -4974,7 +4958,6 @@
 				5407B44E7E5D79E923CF0D3897BD3DE7 /* Support Files */,
 				806D35B6272986252DD95BE2BEEB2F68 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -5041,7 +5024,6 @@
 				8996AB5FC39E1C32CA696F9DF77C78AC /* XHLaunchImageView.m */,
 				B6A118DF323A07E55FA2796E87624B83 /* Support Files */,
 			);
-			name = XHLaunchAd;
 			path = XHLaunchAd;
 			sourceTree = "<group>";
 		};
@@ -5558,7 +5540,6 @@
 				31990358C0B117586328A65206B7D457 /* PrintBeautifulLog.m */,
 				67CF60259B39069B029BDD86ACF23D94 /* Support Files */,
 			);
-			name = PrintBeautifulLog;
 			path = PrintBeautifulLog;
 			sourceTree = "<group>";
 		};
@@ -5569,7 +5550,6 @@
 				D0D8AE11D40E9D3FEBC0938C55FDCF65 /* UIScrollView+EmptyDataSet.m */,
 				DA78BDD8EC34C59CCE4FB6419874D324 /* Support Files */,
 			);
-			name = DZNEmptyDataSet;
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
@@ -5628,7 +5608,6 @@
 				8C90D6096EEADF22DE5392DFAF306802 /* PGPickerView.m */,
 				029E1F20328B1B4AC77F290587BC7F53 /* Support Files */,
 			);
-			name = PGPickerView;
 			path = PGPickerView;
 			sourceTree = "<group>";
 		};
@@ -6459,7 +6438,7 @@
 			);
 			name = YYKit;
 			productName = YYKit;
-			productReference = E325DCCD357AF9DF2F7C506424659D7E /* YYKit */;
+			productReference = E325DCCD357AF9DF2F7C506424659D7E /* YYKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
@@ -8236,7 +8215,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYKit/YYKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYKit/YYKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYKit/YYKit.modulemap";
 				PRODUCT_MODULE_NAME = YYKit;
@@ -9132,8 +9111,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -9728,7 +9706,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYKit/YYKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYKit/YYKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYKit/YYKit.modulemap";
 				PRODUCT_MODULE_NAME = YYKit;
