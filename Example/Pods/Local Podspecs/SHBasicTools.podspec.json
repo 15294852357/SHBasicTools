@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "summary": "A short description of SHBasicTools.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitee.com/BenGongLueMeng/SHBasicTools.git",
+  "homepage": "https://github.com/15294852357/SHBasicTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yangsh": "15294852357@163.com"
   },
   "source": {
-    "git": "https://gitee.com/BenGongLueMeng/SHBasicTools.git",
+    "git": "https://github.com/15294852357/SHBasicTools.git",
     "tag": "1.0.2"
   },
   "platforms": {
