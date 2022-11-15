@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'SHBasicTools/Classes/**/*'
   
@@ -62,6 +62,14 @@ TODO: Add long description of the pod here.
   s.dependency 'IQKeyboardManager'
   s.dependency 'JXCategoryView'
   s.dependency 'PrintBeautifulLog'
+  s.dependency 'SCIndexView'
+  s.dependency 'QMUIKit'
+  s.dependency 'YYKit'
+  s.dependency 'XHLaunchAd'
+  s.dependency 'WMZDialog'
+  s.dependency 'SDCycleScrollView'
+
+
   #分享
 #  s.dependency 'mob_sharesdk'
 #  s.dependency 'mob_sharesdk/ShareSDKUI'
